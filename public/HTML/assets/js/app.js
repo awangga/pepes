@@ -1,85 +1,81 @@
  
 //BACKGROUND CHANGER
-
-  $(function() {
-      $("#button-bg").click(function() {
+  var a="/pepes/public/HTML/";
+  var array=[
+              "url('/pepes/public/HTML/assets/img/bg5.jpg')no-repeat center center fixed",
+              "url('/pepes/public/HTML/assets/img/bg2.jpg')no-repeat center center fixed",
+              "url('/pepes/public/HTML/assets/img/bg.jpg')no-repeat center center fixed",
+              "url('/pepes/public/HTML/assets/img/giftly.png')repeat",
+              "#2c3e50",
+              "url('/pepes/public/HTML/assets/img/bg3.png')repeat",
+              "url('/pepes/public/HTML/assets/img/bg8.jpg')no-repeat center center fixed",
+              "url('/pepes/public/HTML/assets/img/bg9.jpg')no-repeat center center fixed",
+              "url('/pepes/public/HTML/assets/img/bg10.jpg')no-repeat center center fixed",
+              "url('/pepes/public/HTML/assets/img/bg11.jpg')no-repeat center center fixed",
+              "url('/pepes/public/HTML/assets/img/bg13.jpg')repeat"
+            ];
+    var item = array[Math.floor(Math.random()*array.length)];
+    $("body").css({
+      "background":item
+    });
+    //alert(item);
+    setInterval(
+      function(){
+        var item = array[Math.floor(Math.random()*array.length)];
+        //$('body').animate({opacity:1},500,function(){
           $("body").css({
-              "background": "url('assets/img/bg5.jpg')no-repeat center center fixed"
+            "background":item
           });
-      });
-      $("#button-bg2").click(function() {
-          $("body").css({
-              "background": "url('assets/img/bg2.jpg')no-repeat center center fixed"
-          });
-      });
-
-
-      $("#button-bg3").click(function() {
-          $("body").css({
-              "background": "url('assets/img/bg.jpg')no-repeat center center fixed"
-          });
-
-
-      });
-
-      $("#button-bg5").click(function() {
-          $("body").css({
-              "background": "url('assets/img/giftly.png')repeat"
-          });
-
-      });
-
-      $("#button-bg6").click(function() {
-          $("body").css({
-              "background": "#2c3e50"
-          });
-
-      });
-
+        //});
+        //$('body').animate({opacity:0},500); 
+      },
+    100000);
+/*  $(function() {
+      
       $("#button-bg7").click(function() {
           $("body").css({
-              "background": "url('assets/img/bg3.png')repeat"
+              "background": "url('/pepes/public/HTML/assets/img/bg3.png')repeat"
           });
 
       });
       $("#button-bg8").click(function() {
           $("body").css({
-              "background": "url('assets/img/bg8.jpg')no-repeat center center fixed"
+              "background": "url('/pepes/public/HTML/assets/img/bg8.jpg')no-repeat center center fixed"
           });
       });
       $("#button-bg9").click(function() {
           $("body").css({
-              "background": "url('assets/img/bg9.jpg')no-repeat center center fixed"
+              "background": "url('/pepes/public/HTML/assets/img/bg9.jpg')no-repeat center center fixed"
           });
       });
 
       $("#button-bg10").click(function() {
           $("body").css({
-              "background": "url('assets/img/bg10.jpg')no-repeat center center fixed"
+              "background": "url('/pepes/public/HTML/assets/img/bg10.jpg')no-repeat center center fixed"
           });
       });
       $("#button-bg11").click(function() {
           $("body").css({
-              "background": "url('assets/img/bg11.jpg')no-repeat center center fixed"
+              "background": "url('/pepes/public/HTML/assets/img/bg11.jpg')no-repeat center center fixed"
           });
       });
       $("#button-bg12").click(function() {
           $("body").css({
-              "background": "url('assets/img/bg12.jpg')no-repeat center center fixed"
+              "background": "url('/pepes/public/HTML/assets/img/bg12.jpg')no-repeat center center fixed"
           });
       });
 
       $("#button-bg13").click(function() {
           $("body").css({
-              "background": "url('assets/img/bg13.jpg')repeat"
+              "background": "url('/pepes/public/HTML/assets/img/bg13.jpg')repeat"
           });
 
       });
       /**
        * Background Changer end
-       */
+       
   });
-
+*/
 //TOGGLE CLOSE
     $('.nav-toggle').click(function() {
         //get collapse content selector

@@ -1,7 +1,30 @@
-<div class="page-header">
-    <h1>Wilujeng Sumping!</h1>
-</div>
+					<div class="col-sm-12">
+                        <!-- BLANK PAGE-->
 
-<p>You're now flying with peuyeum. Great things are about to happen!</p>
+                        <div class="nest" id="Blank_PageClose">
+                            <div class="title-alt">
+                                <h6>
+                                    About PEPES</h6>
+                                <div class="titleClose">
+                                    <a class="gone" href="#Blank_PageClose">
+                                        <span class="entypo-cancel"></span>
+                                    </a>
+                                </div>
+                                <div class="titleToggle">
+                                    <a class="nav-toggle-alt" href="#Blank_Page_Content">
+                                        <span class="entypo-up-open"></span>
+                                    </a>
+                                </div>
 
-<em>This page is testing for smsweb</em>
+                            </div>
+
+                            <div class="body-nest" id="Blank_Page_Content">
+
+                                <p>PEPES is web user interface for smsweb</p>
+
+								<em>Meet the team at www.peuyeum.com</em>
+                            </div>
+                        </div>
+                    </div>
+
+
