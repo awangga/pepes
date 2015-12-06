@@ -13,7 +13,16 @@ class PeringkatController extends \Phalcon\Mvc\Controller
 						"limit" => 5
 				)
 		);
+		$lama=Users::find(
+				array(
+						"sort"  => array(
+								"lama" => 1
+						),
+						"limit" => 5
+				)
+		);
 		$this->view->response=$user;
+		$this->view->lama=$lama;
 	}
 	public function addAction(){
 		for($a=1;$a<=5;$a++){
