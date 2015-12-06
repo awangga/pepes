@@ -14,6 +14,7 @@ class PepesController extends \Phalcon\Mvc\Controller
 			$user->num	= $this->request->getPost('num');
 			$user->tingkat	= $this->request->getPost('tingkat');
 			$user->namalokasi	= $this->request->getPost('namalokasi');
+			$user->dok		= $this->request->getPost('dok');
 			$user->lama		= $this->request->getPost('lama');
 			$user->pungutan	= $this->request->getPost('pungutan');
 			$user->save();
