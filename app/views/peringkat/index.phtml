@@ -2,7 +2,7 @@
 $kelurahan=array();
 $pung=array();
 foreach ($response as $u) {
-        //echo $u->pungutan." <br>";
+        echo $u->namalokasi." - ".$u->num." - ".$u->tingkat." <br>";
     $kelurahan[]=$u->namalokasi;
     $pungutan[]=$u->pungutan;
     }
