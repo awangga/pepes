@@ -2,7 +2,7 @@
 $kelurahan=array();
 $pung=array();
 foreach ($response as $u) {
-        echo $u->pungutan." <br>";
+        //echo $u->pungutan." <br>";
     $kelurahan[]=$u->namalokasi;
     $pungutan[]=$u->pungutan;
     }
@@ -20,12 +20,7 @@ foreach ($response as $u) {
                 text: ''
             },
             xAxis: {
-                categories: [<?php
-                    foreach($response as $u)
-                    {
-                        echo $u->kelurahan.',';
-                    }
-                    ?>],
+                categories: [2000,2001,2002,2003],
                 crosshair: true
             },
             yAxis: {
@@ -50,13 +45,7 @@ foreach ($response as $u) {
             },
             series: [{
                 name: 'Pungutan',
-                data: [
-                    <?php
-                    foreach($response as $u)
-                    {
-                        echo $u->pungutan.',';
-                    }
-                    ?>
+                data: [12,43,34,34
                 ]
 
             }]
