@@ -1,8 +1,8 @@
 {{ tag_html("div",["class": "page-header"])}}
-    {{ tag_html('h1')}} SMS sent!{{ tag_html_close('h1')}}
+    {{ tag_html('h1')}} Terkirim {{ tag_html_close('h1')}}
 {{tag_html_close("div")}}
 
-<p>SMS Was sent.</p>
+<p>Laporan sudah diterima.</p>
 
 <em>{{ response }}</em>
 <p>
