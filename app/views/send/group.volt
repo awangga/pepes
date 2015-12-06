@@ -48,7 +48,7 @@
 	    </div>
 	  </div>
 	<div class="form-group">
-	    <label class="control-label col-sm-2" for="email">Lama Proses : </label>
+	    <label class="control-label col-sm-2" for="email">Uang Pungutan : </label>
 	    <div class="col-sm-10">
 			{{ text_field('pungutan','class':'form-control','placeholder':'angka dalam rupiah','value':number)}}
 	    </div>
