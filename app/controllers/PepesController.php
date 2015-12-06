@@ -9,16 +9,11 @@ class PepesController extends \Phalcon\Mvc\Controller
 		$this->response->setContentType('application/json');
 		if($this->request->isPost()){
 			$user = new Users();
-			$user->username = $this->request->getPost('username');
+			#$user->username = $this->request->getPost('username');
 			$user->nik	= $this->request->getPost('nik');
 			$user->num	= $this->request->getPost('num');
-			$user->rt	= $this->request->getPost('rt');
-			$user->rw	= $this->request->getPost('rw');
-			$user->kel	= $this->request->getPost('kel');
-			$user->kec	= $this->request->getPost('kec');
-			$user->kota	= $this->request->getPost('kota');
-			$user->prov	= $this->request->getPost('prov');
-			$user->tkp	= $this->request->getPost('tkp');
+			$user->tingkat	= $this->request->getPost('tingkat');
+			$user->namalokasi	= $this->request->getPost('namalokasi');
 			$user->lama		= $this->request->getPost('lama');
 			$user->pungutan	= $this->request->getPost('pungutan');
 			$user->save();
