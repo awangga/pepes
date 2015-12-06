@@ -26,7 +26,7 @@
 		                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
 		                      <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
 		                    </button>
-							{{ link_to('','<i class="fa fa-rocket fa-4"></i> pepes', 'class': 'navbar-brand') }}
+							{{ link_to('','<i class="fa fa-rocket fa-4"></i> Pepes', 'class': 'navbar-brand') }}
 		                     
 		                </div><!-- navbar-header-->
 
@@ -41,7 +41,7 @@
 		        <div id="sidebar-wrapper">
 		            <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
 		            	<li {% if selectmenu == "comments" %}class="active"{% endif %}>
-							{{ link_to('comments','<span class="fa-stack fa-lg pull-left"><i class="fa fa-comments fa-stack-1x "></i></span>Laporkan') }}
+							{{ link_to('send/group','<span class="fa-stack fa-lg pull-left"><i class="fa fa-comments fa-stack-1x "></i></span>Laporkan') }}
 		                </li>
 		                <li {% if selectmenu == "outbox" %}class="active"{% endif %}>
 							{{ link_to('outbox','<span class="fa-stack fa-lg pull-left"><i class="fa fa-external-link fa-stack-1x "></i></span>Peringkat') }}
