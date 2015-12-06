@@ -13,8 +13,6 @@ class PeringkatController extends \Phalcon\Mvc\Controller
 						"limit" => 5
 				)
 		);
-		foreach($user as $u){
-			echo $u->pungutan."<br>";
-		}
+		$this->view->response=$user;
 	}
 }
