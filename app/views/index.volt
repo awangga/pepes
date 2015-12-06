@@ -8,7 +8,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="SWIM : SMS Gateway Web Service Interface Module">
 	    <meta name="author" content="Rolly Maulana Awangga">
-	<title>{{ title }} SMS Gateway Web Service Interface Module</title>
+	<title>{{ title }} : Aplikasi Pengawasan Pelayanan Pencatatan Sipil</title>
 		{{ stylesheet_link("css/bootstrap.min.css") }}
 		{{ stylesheet_link("css/simple-sidebar.css") }}
 		{{ stylesheet_link("font-awesome-4.3.0/css/font-awesome.min.css") }}
@@ -26,7 +26,7 @@
 		                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
 		                      <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
 		                    </button>
-							{{ link_to('','<i class="fa fa-rocket fa-4"></i> peuyeum', 'class': 'navbar-brand') }}
+							{{ link_to('','<i class="fa fa-rocket fa-4"></i> pepes', 'class': 'navbar-brand') }}
 		                     
 		                </div><!-- navbar-header-->
 
@@ -40,21 +40,6 @@
 		        <!-- Sidebar -->
 		        <div id="sidebar-wrapper">
 		            <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
-
-		                <li {% if selectmenu == "messaging" %}class="active"{% endif %}>
-		                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-envelope-o fa-stack-1x "></i></span>Messaging</a>
-		                       <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-		                        <li {% if selectmenu == "mgroups" %}class="active"{% endif %}>
-								{{ link_to('send/groups','<span class="fa-stack fa-lg pull-left"><i class="fa fa-check-square-o fa-stack-1x "></i></span>Multi Groups') }}
-								</li>
-								<li {% if selectmenu == "mgroup" %}class="active"{% endif %}>
-								{{ link_to('send/group','<span class="fa-stack fa-lg pull-left"><i class="fa fa-users fa-stack-1x "></i></span>Group') }}
-								</li>
-		                        <li {% if selectmenu == "mpersonal" %}class="active"{% endif %}>
-								{{ link_to('send/personal','<span class="fa-stack fa-lg pull-left"><i class="fa fa-user fa-stack-1x "></i></span>Personal') }}
-								</li>
-		                    	</ul>
-		                </li>
 		            	<li {% if selectmenu == "comments" %}class="active"{% endif %}>
 							{{ link_to('comments','<span class="fa-stack fa-lg pull-left"><i class="fa fa-comments fa-stack-1x "></i></span>Comments') }}
 		                </li>
