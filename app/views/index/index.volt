@@ -4,7 +4,7 @@
 
 <p>Aplikasi Pengawasan Pelayanan Pencatatan Sipil</p>
 <p>
-	Lakukan pelaporan ke aplikasi Pepes di setiap tingkatan :
+	Lakukan pelaporan setiap proses pembuatan dokumen pencatatan sipil di setiap tingkatan :
 	<ul>
 		<li>RT</li>
 		<li>RW</li>
@@ -12,4 +12,5 @@
 		<li>Kecamatan</li>
 		<li>Kabupaten/Kota</li>
 	</ul>
+	Melalui aplikasi Pepes
 </p>
