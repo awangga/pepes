@@ -6,6 +6,7 @@ class PeringkatController extends \Phalcon\Mvc\Controller
 		$this->view->title = "Outbox - ";
 		$this->view->selectmenu	= "outbox";
 		$user=Users::find();
+		echo "<pre>";
 		print_r($user);
 	}
 }
