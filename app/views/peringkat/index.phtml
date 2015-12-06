@@ -21,12 +21,7 @@ foreach ($response as $u) {
                 text: ''
             },
             xAxis: {
-                categories: [<?php
-                    foreach($response as $u)
-                    {
-                        echo $u->kelurahan.',';
-                    }
-                    ?>],
+                categories: [2000,2001,2003],
                 crosshair: true
             },
             yAxis: {
@@ -51,13 +46,7 @@ foreach ($response as $u) {
             },
             series: [{
                 name: 'Pungutan',
-                data: [
-                    <?php
-                    foreach($response as $u)
-                    {
-                        echo $u->pungutan.',';
-                    }
-                    ?>
+                data: [40,90,80
                 ]
 
             }]
