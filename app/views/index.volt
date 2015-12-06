@@ -46,7 +46,7 @@
 							{{ link_to('send/group','<span class="fa-stack fa-lg pull-left"><i class="fa fa-comments fa-stack-1x "></i></span>Laporkan') }}
 		                </li>
 		                <li {% if selectmenu == "outbox" %}class="active"{% endif %}>
-							{{ link_to('outbox','<span class="fa-stack fa-lg pull-left"><i class="fa fa-external-link fa-stack-1x "></i></span>Peringkat') }}
+							{{ link_to('peringkat','<span class="fa-stack fa-lg pull-left"><i class="fa fa-external-link fa-stack-1x "></i></span>Peringkat') }}
 		                </li>
 		                <li {% if selectmenu == "sentitems" %}class="active"{% endif %}>
 							{{ link_to('sentitems','<span class="fa-stack fa-lg pull-left"><i class="fa fa-check fa-stack-1x "></i></span>Terbaik') }}
