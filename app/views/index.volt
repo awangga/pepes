@@ -21,7 +21,7 @@
 		{{ javascript_include("highchart/exporting.js") }}
 
 		{{ javascript_include("jquery.validate.js") }}
-		{{ javascript_include("additional-methods.js") }}
+		{{ javascript_include("additional-methods.min.js") }}
     </head>
 
     <body>
