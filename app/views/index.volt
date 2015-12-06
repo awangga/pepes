@@ -19,6 +19,9 @@
 		{{ javascript_include("js/bootstrap-multiselect.js") }}
 		{{ javascript_include("highchart/highchart.js") }}
 		{{ javascript_include("highchart/exporting.js") }}
+
+		{{ javascript_include("jquery.validate.js") }}
+		{{ javascript_include("additional-methods.js") }}
     </head>
 
     <body>
