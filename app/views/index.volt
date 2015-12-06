@@ -41,19 +41,19 @@
 		        <div id="sidebar-wrapper">
 		            <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
 		            	<li {% if selectmenu == "comments" %}class="active"{% endif %}>
-							{{ link_to('comments','<span class="fa-stack fa-lg pull-left"><i class="fa fa-comments fa-stack-1x "></i></span>Comments') }}
+							{{ link_to('comments','<span class="fa-stack fa-lg pull-left"><i class="fa fa-comments fa-stack-1x "></i></span>Laporkan') }}
 		                </li>
 		                <li {% if selectmenu == "outbox" %}class="active"{% endif %}>
-							{{ link_to('outbox','<span class="fa-stack fa-lg pull-left"><i class="fa fa-external-link fa-stack-1x "></i></span>Outbox') }}
+							{{ link_to('outbox','<span class="fa-stack fa-lg pull-left"><i class="fa fa-external-link fa-stack-1x "></i></span>Peringkat') }}
 		                </li>
 		                <li {% if selectmenu == "sentitems" %}class="active"{% endif %}>
-							{{ link_to('sentitems','<span class="fa-stack fa-lg pull-left"><i class="fa fa-check fa-stack-1x "></i></span>Sent Items') }}
+							{{ link_to('sentitems','<span class="fa-stack fa-lg pull-left"><i class="fa fa-check fa-stack-1x "></i></span>Terbaik') }}
 		                </li>
 		                <li {% if selectmenu == "errors" %}class="active"{% endif %}>
-							{{ link_to('errors','<span class="fa-stack fa-lg pull-left"><i class="fa fa-close fa-stack-1x "></i></span>Errors') }}
+							{{ link_to('errors','<span class="fa-stack fa-lg pull-left"><i class="fa fa-close fa-stack-1x "></i></span>Terburuk') }}
 		                </li>
 		                <li {% if selectmenu == "about" %}class="active"{% endif %}>
-							{{ link_to('about','<span class="fa-stack fa-lg pull-left"><i class="fa fa-users fa-stack-1x "></i></span>About') }}
+							{{ link_to('about','<span class="fa-stack fa-lg pull-left"><i class="fa fa-users fa-stack-1x "></i></span>Tentang') }}
 		                </li>
 		            </ul>
 		        </div><!-- /#sidebar-wrapper -->
