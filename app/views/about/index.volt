@@ -1,7 +1,7 @@
 <div class="page-header">
-    <h1>About peuyeum</h1>
+    <h1>About Pepes</h1>
 </div>
 
-<p>peuyeum is web user interface for smsweb</p>
+<p>Pepes dibuat pada saat Hackaton Merdeka 3.0 dengan racikan mandiri dan sumber kode terbuka</p>
 
-<em>Meet the team at www.peuyeum.com</em>
+<em>Meet the team at www.saungit.org</em>
