@@ -1,10 +1,22 @@
 <?php
 $kelurahan=array();
 $pung=array();
+$nm=1;
+$p=1;
 foreach ($response as $u) {
         echo $u->namalokasi." - ".$u->num." - ".$u->tingkat." <br>";
-    $kelurahan[]=$u->namalokasi;
-    $pungutan[]=$u->pungutan;
+    if($u->namalokasi==''){
+        $kelurahan[]="dummy".$nm;
+        $nm++;
+    }else{
+        $kelurahan[]=$u->namalokasi;
+    }
+    if($u->pungutan==''){
+        $pungutan[]=$p;
+        $p++;
+    }else{
+        $pungutan[]=$u->punngutan;
+    }
     }
 ?>
 <div id="chart"></div>
