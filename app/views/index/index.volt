@@ -3,5 +3,13 @@
 </div>
 
 <p>Aplikasi Pengawasan Pelayanan Pencatatan Sipil</p>
-
-<em>Rating dan ranking pelayanan pencatatan sipil dari rt-rw-kelurahan-kecamatan-kota/kabupaten</em>
+<p>
+	Lakukan pelaporan ke aplikasi Pepes di setiap tingkatan :
+	<ul>
+		<li>RT</li>
+		<li>RW</li>
+		<li>Kelurahan</li>
+		<li>Kecamatan</li>
+		<li>Kabupaten/Kota</li>
+	</ul>
+</p>
