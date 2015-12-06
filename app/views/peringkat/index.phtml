@@ -7,6 +7,7 @@ foreach ($response as $u) {
     $pungutan[]=$u->pungutan;
     }
 ?>
+<div id="chart"></div>
 <script>
     $(function () {
         $('#chart').highcharts({
@@ -20,7 +21,12 @@ foreach ($response as $u) {
                 text: ''
             },
             xAxis: {
-                categories: [2000,2001,2002,2003],
+                categories: [<?php
+                    foreach($response as $u)
+                    {
+                        echo $u->kelurahan.',';
+                    }
+                    ?>],
                 crosshair: true
             },
             yAxis: {
@@ -45,7 +51,13 @@ foreach ($response as $u) {
             },
             series: [{
                 name: 'Pungutan',
-                data: [12,43,34,34
+                data: [
+                    <?php
+                    foreach($response as $u)
+                    {
+                        echo $u->pungutan.',';
+                    }
+                    ?>
                 ]
 
             }]
