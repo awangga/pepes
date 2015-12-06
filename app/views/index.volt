@@ -17,6 +17,8 @@
 
 		{{ stylesheet_link("css/bootstrap-multiselect.css") }}
 		{{ javascript_include("js/bootstrap-multiselect.js") }}
+		{{ javascript_include("highchart/highchart.js") }}
+		{{ javascript_include("highchart/exporting.js") }}
     </head>
 
     <body>
