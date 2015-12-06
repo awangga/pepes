@@ -3,11 +3,11 @@
 {{tag_html_close("div")}}
 
 
-{{ form("", "class":"form-horizontal required","role":"form","method": "post") }}
+{{ form("", "class":"form-horizontal","role":"form","method": "post") }}
     <div class="form-group">
 	    <label class="control-label col-sm-2" for="email">NIK : </label>
 	    <div class="col-sm-10">
-			{{ text_field('nik','class':'form-control','placeholder':'Nomor Induk Kependudukan','value':number)}}
+			{{ text_field('nik','class':'form-control','placeholder':'Nomor Induk Kependudukan','value':number,'required')}}
 	    </div>
 	  </div>
 	<div class="form-group">
