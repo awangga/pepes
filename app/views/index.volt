@@ -8,7 +8,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="SWIM : SMS Gateway Web Service Interface Module">
 	    <meta name="author" content="Rolly Maulana Awangga">
-	<title>{{ title }} : Aplikasi Pengawasan Pelayanan Pencatatan Sipil</title>
+	<title>{{ title }} Aplikasi Pengawasan Pelayanan Pencatatan Sipil</title>
 		{{ stylesheet_link("css/bootstrap.min.css") }}
 		{{ stylesheet_link("css/simple-sidebar.css") }}
 		{{ stylesheet_link("font-awesome-4.3.0/css/font-awesome.min.css") }}

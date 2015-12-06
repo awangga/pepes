@@ -2,6 +2,6 @@
     <h1>Wilujeng Sumping!</h1>
 </div>
 
-<p>You're now flying with peuyeum. Great things are about to happen!</p>
+<p>Aplikasi Pengawasan Pelayanan Pencatatan Sipil</p>
 
-<em>This page is testing for smsweb</em>
+<em>Rating dan ranking pelayanan pencatatan sipil dari rt-rw-kelurahan-kecamatan-kota/kabupaten</em>
