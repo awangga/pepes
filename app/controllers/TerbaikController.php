@@ -5,7 +5,7 @@
  * Date: 06/12/2015
  * Time: 20:30
  */
-class TerburukController extends \Phalcon\Mvc\Controller
+class TerbaikController extends \Phalcon\Mvc\Controller
 {
     public function indexAction(){
         $this->view->title = "Peringkat ";
