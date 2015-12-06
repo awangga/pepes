@@ -6,19 +6,19 @@
 {{ form("", "class":"form-horizontal","role":"form","method": "post") }}
     <div class="form-group">
 	    <label class="control-label col-sm-2" for="email">NIK : </label>
-	    <div class="col-sm-10">
-			{{ text_field('nik','class':'form-control','placeholder':'Nomor Induk Kependudukan','value':number,'required')}}
+	    <div class="required col-sm-10">
+			{{ text_field('nik','class':'form-control','placeholder':'Nomor Induk Kependudukan','value':number)}}
 	    </div>
 	  </div>
 	<div class="form-group">
 	    <label class="control-label col-sm-2" for="email">Nomor Ponsel : </label>
-	    <div class="col-sm-10">
+	    <div class="required col-sm-10">
 			{{ text_field('num','class':'form-control','placeholder':'081100000','value':number)}}
 	    </div>
 	  </div>
 	<div class="form-group">
 	    <label class="control-label col-sm-2" for="email">Dokumen : </label>
-	    <div class="col-sm-10">
+	    <div class="required col-sm-10">
 			{{ text_field('dok','class':'form-control','placeholder':'KTP','value':number)}}
 	    </div>
 	  </div>
@@ -37,19 +37,19 @@
 	</div>
 	<div class="form-group">
 	    <label class="control-label col-sm-2" for="email">Nama Lokasi : </label>
-	    <div class="col-sm-10">
+	    <div class="required col-sm-10">
 			{{ text_field('namalokasi','class':'form-control','placeholder':'Nomor RT/RW atau Nama Kelurahan/Kecamatan/Kab/Kota','value':number)}}
 	    </div>
 	  </div>
 	<div class="form-group">
 	    <label class="control-label col-sm-2" for="email">Lama Proses : </label>
-	    <div class="col-sm-10">
+	    <div class="required col-sm-10">
 			{{ text_field('lama','class':'form-control','placeholder':'angka dalam hari','value':number)}}
 	    </div>
 	  </div>
 	<div class="form-group">
 	    <label class="control-label col-sm-2" for="email">Uang Pungutan : </label>
-	    <div class="col-sm-10">
+	    <div class="required col-sm-10">
 			{{ text_field('pungutan','class':'form-control','placeholder':'angka dalam rupiah','value':number)}}
 	    </div>
 	  </div>
