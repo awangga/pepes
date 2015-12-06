@@ -52,10 +52,10 @@
 							{{ link_to('peringkat','<span class="fa-stack fa-lg pull-left"><i class="fa fa-external-link fa-stack-1x "></i></span>Peringkat') }}
 		                </li>
 		                <li {% if selectmenu == "sentitems" %}class="active"{% endif %}>
-							{{ link_to('sentitems','<span class="fa-stack fa-lg pull-left"><i class="fa fa-check fa-stack-1x "></i></span>Terbaik') }}
+							{{ link_to('terbaik','<span class="fa-stack fa-lg pull-left"><i class="fa fa-check fa-stack-1x "></i></span>Terbaik') }}
 		                </li>
 		                <li {% if selectmenu == "errors" %}class="active"{% endif %}>
-							{{ link_to('errors','<span class="fa-stack fa-lg pull-left"><i class="fa fa-close fa-stack-1x "></i></span>Terburuk') }}
+							{{ link_to('terburuk','<span class="fa-stack fa-lg pull-left"><i class="fa fa-close fa-stack-1x "></i></span>Terburuk') }}
 		                </li>
 		                <li {% if selectmenu == "about" %}class="active"{% endif %}>
 							{{ link_to('about','<span class="fa-stack fa-lg pull-left"><i class="fa fa-users fa-stack-1x "></i></span>Tentang') }}
