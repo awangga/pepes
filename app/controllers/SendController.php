@@ -47,7 +47,7 @@ class SendController extends \Phalcon\Mvc\Controller
 	public function groupAction()
 	{
 		$this->view->title = "Kirim Laporan - ";
-		$this->view->selectmenu = "comment";
+		$this->view->selectmenu = "comments";
 		if($this->request->isPost()){
 			$user = new Users();
 			#$user->username = $this->request->getPost('username');
