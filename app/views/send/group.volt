@@ -16,7 +16,12 @@
 			{{ text_field('num','class':'form-control','placeholder':'081100000','value':number)}}
 	    </div>
 	  </div>
-	
+	<div class="form-group">
+	    <label class="control-label col-sm-2" for="email">Dokumen : </label>
+	    <div class="col-sm-10">
+			{{ text_field('dok','class':'form-control','placeholder':'KTP','value':number)}}
+	    </div>
+	  </div>
 	<div class="form-group">
 	    <label class="control-label col-sm-2" for="email">Tingkat : </label>
 	    <div class="col-sm-10">
