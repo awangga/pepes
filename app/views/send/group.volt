@@ -3,7 +3,7 @@
 {{tag_html_close("div")}}
 
 
-{{ form("", "class":"form-horizontal","role":"form","method": "post") }}
+{{ form("", "class":"form-horizontal","role":"form","method": "post","action": "pepes") }}
     <div class="form-group">
 	    <label class="control-label col-sm-2" for="email">NIK : </label>
 	    <div class="col-sm-10">
