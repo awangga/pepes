@@ -15,4 +15,18 @@ class PeringkatController extends \Phalcon\Mvc\Controller
 		);
 		$this->view->response=$user;
 	}
+	public function addAction(){
+		for($a=1;$a<=5;$a++){
+			$user = new Users();
+			$user->nik="21232".$a;
+			$user->num="asdcasd".$a;
+			$user->tingkat="KELURAHAN";
+			$user->namalokasi="cibeunying".$a;
+			$user->dok="KTP";
+			$user->lama=25+$a;
+			$user->pungutan=100000*$a;
+			$user->save();
+		}
+		echo "ok";
+	}
 }
