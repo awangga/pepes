@@ -7,7 +7,7 @@ class PeringkatController extends \Phalcon\Mvc\Controller
 		$this->view->selectmenu	= "outbox";
 		$user=Users::find();
 		foreach($user as $u){
-			echo $u->pungutan;
+			echo $u->pungutan."<br>";
 		}
 	}
 }
