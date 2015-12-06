@@ -76,3 +76,32 @@ foreach ($response as $u) {
         });
     });
 </script>
+
+<div class="row">
+    <div class="col-md-6">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="4">Pengajuan terlama</th>
+                </tr>
+                <tr>
+                    <th>Daerah</th>
+                    <th>Dokumen</th>
+                    <th>Tingkat</th>
+                    <th>Lama</th>
+                </tr>
+            </thead>
+            <tbody>
+            <?php foreach($lama as $l){?>
+                <tr>
+                    <td><?php echo $l->nama_lokasi;?></td>
+                    <td><?php echo $l->dok;?></td>
+                    <td><?php echo $l->tingkat;?></td>
+                    <td><?php echo $l->lama;?></td>
+                </tr>
+            <?php }?>
+
+            </tbody>
+        </table>
+    </div>
+</div>
