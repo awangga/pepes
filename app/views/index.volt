@@ -8,6 +8,8 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Pepes : Pengawasan Pelayanan Pencatatan Sipil">
 	    <meta name="author" content="Rolly Maulana Awangga">
+		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 	<title>{{ title }} Aplikasi Pengawasan Pelayanan Pencatatan Sipil</title>
 		{{ stylesheet_link("css/bootstrap.min.css") }}
 		{{ stylesheet_link("css/simple-sidebar.css") }}
