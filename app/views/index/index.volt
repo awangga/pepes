@@ -12,5 +12,5 @@
 		<li>Kecamatan</li>
 		<li>Kabupaten/Kota</li>
 	</ul>
-	Melalui aplikasi Pepes, demi menuju pelayanan publik yang bersih, tertib dan bebas pungli.
+	Melalui aplikasi Pepes, demi menuju pelayanan publik yang bersih, tertib dan bebas pungli. Download aplikasi untuk android nya di <a href="http://s.id/pepesandroid">sini</a>
 </p>
